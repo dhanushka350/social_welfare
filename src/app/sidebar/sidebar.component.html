@@ -1,5 +1,42 @@
-<div class="ui bottom attached segment pushable">
-  <div class="ui visible inverted left vertical sidebar menu">
+<style>
+  .profile-image {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+
+  /** {*/
+  /*box-sizing: border-box;*/
+  /*}*/
+
+  /*body {*/
+  /*font-family: Arial;*/
+  /*font-size: 17px;*/
+  /*}*/
+
+  /*.container {*/
+  /*position: relative;*/
+  /*max-width: 800px;*/
+  /*margin: 0 auto;*/
+  /*}*/
+
+  /*.container img {vertical-align: middle;}*/
+
+  /*.container .content {*/
+  /*position: absolute;*/
+  /*bottom: 0;*/
+  /*background-image: url("../../../bg7.jpg");*/
+  /*!*background: rgb(0, 0, 0); !* Fallback color *!*!*/
+  /*!*background: rgba(0, 0, 0, 0.5); !* Black background with 0.5 opacity *!*!*/
+  /*color: #f1f1f1;*/
+  /*width: 19%;*/
+  /*padding: 20px;*/
+  /*}*/
+</style>
+<div class="ui bottom attached segment pushable profile-image" [ngStyle]="{ 'background-image': url(../)">
+  <div class="ui visible inverted left vertical sidebar menu content">
     <a class="item">
       <i class="home icon"></i>
       Dashboard
@@ -67,4 +104,3 @@
     </div>
   </div>
 </div>
-

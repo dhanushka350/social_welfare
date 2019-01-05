@@ -38,7 +38,7 @@ import { MonthlyReportFiveComponent } from './monthly-report-five/monthly-report
     MonthlyReportTwoComponent,
     MonthlyReportThreeComponent,
     MonthlyReportFourComponent,
-    MonthlyReportFiveComponent
+    MonthlyReportFiveComponent,
   ],
   imports: [
     BrowserModule,
