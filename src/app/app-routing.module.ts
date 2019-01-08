@@ -14,8 +14,13 @@ import {MonthlyReportTwoComponent} from './monthly-report-two/monthly-report-two
 import {MonthlyReportThreeComponent} from './monthly-report-three/monthly-report-three.component';
 import {MonthlyReportFourComponent} from './monthly-report-four/monthly-report-four.component';
 import {MonthlyReportFiveComponent} from './monthly-report-five/monthly-report-five.component';
+import {DeshboardComponent} from './deshboard/deshboard.component';
 
 const routes: Routes = [
+  {
+    path: 'deshboard',
+    component: DeshboardComponent
+  },
   {
     path: 'personal',
     component: PersonalInformationComponent

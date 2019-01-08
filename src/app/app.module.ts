@@ -19,6 +19,7 @@ import { MonthlyReportTwoComponent } from './monthly-report-two/monthly-report-t
 import { MonthlyReportThreeComponent } from './monthly-report-three/monthly-report-three.component';
 import { MonthlyReportFourComponent } from './monthly-report-four/monthly-report-four.component';
 import { MonthlyReportFiveComponent } from './monthly-report-five/monthly-report-five.component';
+import { DeshboardComponent } from './deshboard/deshboard.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { MonthlyReportFiveComponent } from './monthly-report-five/monthly-report
     MonthlyReportThreeComponent,
     MonthlyReportFourComponent,
     MonthlyReportFiveComponent,
+    DeshboardComponent,
   ],
   imports: [
     BrowserModule,
